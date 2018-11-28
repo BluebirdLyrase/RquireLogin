@@ -228,7 +228,7 @@
           <SubComponents>
             <Component class="javax.swing.JTextField" name="Username">
               <Properties>
-                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
                 <Property name="name" type="java.lang.String" value="Email:" noResource="true"/>
               </Properties>
               <AccessibilityProperties>
@@ -250,7 +250,7 @@
             </Component>
             <Component class="javax.swing.JTextField" name="Password">
               <Properties>
-                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
                 <Property name="name" type="java.lang.String" value="Email:" noResource="true"/>
               </Properties>
               <Events>
@@ -276,7 +276,7 @@
             <Property name="text" type="java.lang.String" value="Cancel"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CancelActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CancelBtnclick"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="Back">
@@ -284,7 +284,7 @@
             <Property name="text" type="java.lang.String" value="Back"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BackActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BackBtnclick"/>
           </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="Status">
