@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package megalogin;
+package megalogin.Main;
 
 /**
  *
@@ -30,10 +30,10 @@ public class Main extends javax.swing.JFrame {
         name = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
-        jButton2 = new javax.swing.JButton();
+        DownloadBtn = new javax.swing.JButton();
         storage = new javax.swing.JLabel();
-        jButton6 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
+        UploadBtn = new javax.swing.JButton();
+        HistoryBtn = new javax.swing.JButton();
         jButton10 = new javax.swing.JButton();
         Upgrade = new javax.swing.JButton();
 
@@ -60,13 +60,13 @@ public class Main extends javax.swing.JFrame {
 
         jPanel2.setBorder(new javax.swing.border.MatteBorder(null));
 
-        jButton2.setText("Download");
+        DownloadBtn.setText("Download");
 
         storage.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
 
-        jButton6.setText("Upload");
+        UploadBtn.setText("Upload");
 
-        jButton8.setText("History");
+        HistoryBtn.setText("History");
 
         jButton10.setText("Stream");
 
@@ -82,11 +82,11 @@ public class Main extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addComponent(jButton2)
+                .addComponent(DownloadBtn)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton6)
+                .addComponent(UploadBtn)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton8)
+                .addComponent(HistoryBtn)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton10)
                 .addGap(46, 46, 46)
@@ -104,9 +104,9 @@ public class Main extends javax.swing.JFrame {
                 .addComponent(storage, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton2)
-                    .addComponent(jButton6)
-                    .addComponent(jButton8)
+                    .addComponent(DownloadBtn)
+                    .addComponent(UploadBtn)
+                    .addComponent(HistoryBtn)
                     .addComponent(jButton10)
                     .addComponent(Upgrade)))
         );
@@ -187,12 +187,12 @@ public class Main extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton DownloadBtn;
+    private javax.swing.JButton HistoryBtn;
     public javax.swing.JButton Upgrade;
+    private javax.swing.JButton UploadBtn;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton8;
     private javax.swing.JPanel jPanel2;
     public javax.swing.JPanel name;
     public javax.swing.JLabel storage;
