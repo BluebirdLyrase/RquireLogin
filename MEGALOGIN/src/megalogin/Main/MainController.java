@@ -4,21 +4,36 @@
  * and open the template in the editor.
  */
 package megalogin.Main;
+
+import megalogin.Main.Upload.Upload;
+
 public class MainController {
     
     private double GBUsed = 0 ;
     private double MaxGB ;
     private int MaxGBshow;
     private Main m = new Main();
+    private Upload u = new Upload();
     
     public void DownloadBtnClick(){}
     
-    public void UploadBtnClick(){}
+    public void UploadBtnClick(){
     
-    public void HistoryBtnClick(){}
+        
+        u.setVisible(true);        
+    //GBUsed = u.GetGBUsedResult();
+    }
     
-    private void MainUpdate(int GbRemain){
+    public void HistoryBtnClick(){
     
+    }
+    
+    private void ButtonChecker(){
+    
+    
+    }
+    
+    private void MainVisible(){
         m.storage.setText("used storage "+GBUsed+" GB of "+MaxGBshow+" GB");
         m.setVisible(true);
         
@@ -35,7 +50,7 @@ public class MainController {
             m.storage.setText("used storage "+GBUsed+" GB of "+MaxGBshow+" GB");
             m.Upgrade.setVisible(UpgradeBtn);
             m.setVisible(true);
-    
     }
+    
     
 }

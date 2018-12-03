@@ -28,6 +28,7 @@ public class UserLoginController {
         }
         
         
+        
         MainController m = new MainController();
         AccountPermissionIdentifier A = new AccountPermissionIdentifier();
         if(this.LoginStatus == Login_Status.Success){         
